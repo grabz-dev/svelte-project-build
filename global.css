@@ -64,7 +64,7 @@ button:focus {
 }
 
 .icon-itemstats {
-    background-image: url('/icons/item_stats.png');
+    background-image: url('./icons/item_stats.png');
     background-repeat: no-repeat;
     background-size: cover;
     image-rendering: pixelated;
