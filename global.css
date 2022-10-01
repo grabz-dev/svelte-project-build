@@ -11,6 +11,7 @@ body {
 	color: white;
 	box-sizing: border-box;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    overflow: hidden;
 }
 
 a {
@@ -72,6 +73,7 @@ button:focus {
     width: 16px;
     height: 16px;
 }
-.icon-itemstats-attack     { background-position: 0px; }
-.icon-itemstats-health     { background-position: -16px; }
-.icon-itemstats-block      { background-position: -32px; }
+.icon-itemstats-attack          { background-position: 0px; }
+.icon-itemstats-attackSpeed     { background-position: -16px; }
+.icon-itemstats-health          { background-position: -32px; }
+.icon-itemstats-block           { background-position: -48px; }
