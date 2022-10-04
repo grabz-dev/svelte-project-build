@@ -1,3 +1,9 @@
+:root {
+    --window-panel-outer-padding: 5px;
+    --color-health-outer: #8c2727;
+    --color-health-inner: green;
+}
+
 html, body {
 	position: relative;
 	width: 100%;
