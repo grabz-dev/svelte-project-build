@@ -74,7 +74,6 @@ button:focus {
     background-image: url('./icons/item_stats.png');
     background-repeat: no-repeat;
     background-size: cover;
-    image-rendering: pixelated;
     transform-origin: 0 0;
     width: 16px;
     height: 16px;
