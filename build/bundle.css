@@ -72,13 +72,13 @@
     }
 
 
-    .red.svelte-utg5ox {
+    .red.svelte-1xgpnfk {
         color: #f76262
     }
-    .green.svelte-utg5ox {
+    .green.svelte-1xgpnfk {
         color: #62f762
     }
-    .attack-progress.svelte-utg5ox {
+    .attack-progress.svelte-1xgpnfk {
         position: absolute;
         left: 0;
         top: 0;
@@ -88,7 +88,7 @@
         opacity: 0.5;
         z-index: -1;
     }
-    .item.svelte-utg5ox {
+    .item.svelte-1xgpnfk {
         border: 1px solid white;
         font-size: 14px;
         cursor: pointer;
@@ -97,44 +97,47 @@
         position: relative;
         z-index: 1;
         overflow: hidden;
+        background-color: #454545;
     }
-    .name-type.svelte-utg5ox {
-        text-align: right;
+    .name-type.svelte-1xgpnfk {
+        text-align: center;
         font-size: 12px;
         line-height: 10px;
         margin-bottom: 2px;
+        padding-bottom: 2px;
+        padding-top: 1px;
     }
-    .stat-icon.svelte-utg5ox {
+    .stat-icon.svelte-1xgpnfk {
         flex: 0 1 16px;
     }
-    .item-row.svelte-utg5ox {
+    .item-row.svelte-1xgpnfk {
         display: flex;
         height: 16px;
         flex-flow: row nowrap;
         padding-left: 2px;
         padding-right: 2px;
     }
-    .item-value.svelte-utg5ox {
+    .item-value.svelte-1xgpnfk {
         font-size: 16px;
         line-height: 13px;
         text-align: right;
     }
 
 
-    .name-type.svelte-1vpmx2y {
-        text-align: right;
+    .name-type.svelte-1kzfkat {
+        text-align: center;
         font-size: 12px;
         line-height: 10px;
         margin-bottom: 2px;
-        color: black;
-        padding-right: 1px;
+        padding-bottom: 2px;
         padding-top: 1px;
+        color: black;
     }
-    .item-slot.svelte-1vpmx2y {
+    .item-slot.svelte-1kzfkat {
         z-index: 1;
         position: relative;
     }
-    .item-slot.svelte-1vpmx2y::before {
+    .item-slot.svelte-1kzfkat::before {
         scale: 4;
     }
 
