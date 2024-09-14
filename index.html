@@ -4,13 +4,35 @@
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1'>
 
+    <style>
+        @font-face {
+            font-family: 'Adine Kirnberg';
+            font-weight: normal;
+            font-style: normal;
+            src: url('/fonts/AdineKirnberg-Regular.woff') format('woff'),
+                 url('/fonts/AdineKirnberg-Regular.woff2') format('woff2'),
+                 url('/fonts/AdineKirnberg-Regular.ttf')  format('truetype'),
+        }
+        @font-face {
+            font-family: 'Rumburak';
+            src: url('/fonts/Rumburak.woff2') format('woff2'),
+                 url('/fonts/Rumburak.woff') format('woff'),
+                 url('/fonts/Rumburak.ttf')  format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+
+    </style>
+
 	<title>Svelte app</title>
 
-	<link rel='icon' type='image/png' href='./favicon.png'>
-	<link rel='stylesheet' href='./global.css'>
-	<link rel='stylesheet' href='./build/bundle.css'>
+	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
 
-	<script defer src='./build/bundle.js'></script>
+	<script defer src='/build/bundle.js'></script>
 </head>
 
 <body>

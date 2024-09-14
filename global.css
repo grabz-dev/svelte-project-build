@@ -2,6 +2,10 @@
     --window-panel-outer-padding: 5px;
     --color-health-outer: #8c2727;
     --color-health-inner: green;
+    --color-button-on: #2d941e;
+    --color-button-off: #6c2222;
+    --color-button-on-hover: #38ad26;
+    --color-button-off-hover: #8f2d2d;
 }
 
 html, body {
@@ -54,8 +58,18 @@ input:disabled {
 
 button {
 	color: #333;
-	background-color: #f4f4f4;
 	outline: none;
+    height: 24px;
+    line-height: 0;
+    padding-top: 3px;
+    margin-top: 5px;
+    background-color: #b5b5b5;
+    border: 1px solid #666;
+    margin-bottom: 0px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #cccccc;
 }
 
 button:disabled {
@@ -82,3 +96,22 @@ button:focus {
 .icon-itemstats-attackSpeed     { background-position: -16px; }
 .icon-itemstats-health          { background-position: -32px; }
 .icon-itemstats-block           { background-position: -48px; }
+
+.btn-state-on,
+.btn-state-on:focus {
+    background-color: var(--color-button-on);
+    color: white;
+}
+.btn-state-on:hover,
+.btn-state-on:not(:disabled):active {
+    background-color: var(--color-button-on-hover);
+}
+.btn-state-off,
+.btn-state-off:focus {
+    background-color: var(--color-button-off);
+    color: white;
+}
+.btn-state-off:hover,
+.btn-state-off:not(:disabled):active {
+    background-color: var(--color-button-off-hover);
+}
