@@ -2,6 +2,8 @@
     --window-panel-outer-padding: 5px;
     --color-health-outer: #8c2727;
     --color-health-inner: green;
+    --color-armor-outer: #404040;
+    --color-armor-inner: rgb(31, 137, 178);
     --color-button-on: #2d941e;
     --color-button-off: #6c2222;
     --color-button-on-hover: #38ad26;
@@ -95,7 +97,8 @@ button:focus {
 .icon-itemstats-attack          { background-position: 0px; }
 .icon-itemstats-attackSpeed     { background-position: -16px; }
 .icon-itemstats-health          { background-position: -32px; }
-.icon-itemstats-block           { background-position: -48px; }
+.icon-itemstats-armor           { background-position: -48px; }
+.icon-itemstats-block           { background-position: -64px; }
 
 .btn-state-on,
 .btn-state-on:focus {
@@ -114,4 +117,12 @@ button:focus {
 .btn-state-off:hover,
 .btn-state-off:not(:disabled):active {
     background-color: var(--color-button-off-hover);
+}
+
+.clickable-text {
+    cursor: pointer;
+}
+.clickable-text:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
