@@ -95,7 +95,7 @@ button:focus {
     height: 16px;
 }
 .icon-itemstats-attack          { background-position: 0px; }
-.icon-itemstats-attackSpeed     { background-position: -16px; }
+.icon-itemstats-attackInterval  { background-position: -16px; }
 .icon-itemstats-health          { background-position: -32px; }
 .icon-itemstats-armor           { background-position: -48px; }
 .icon-itemstats-block           { background-position: -64px; }

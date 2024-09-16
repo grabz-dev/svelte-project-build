@@ -72,13 +72,13 @@
     }
 
 
-    .red.svelte-1xgpnfk {
+    .red.svelte-157gyn8 {
         color: #f76262
     }
-    .green.svelte-1xgpnfk {
+    .green.svelte-157gyn8 {
         color: #62f762
     }
-    .attack-progress.svelte-1xgpnfk {
+    .attack-progress.svelte-157gyn8 {
         position: absolute;
         left: 0;
         top: 0;
@@ -88,7 +88,7 @@
         opacity: 0.5;
         z-index: -1;
     }
-    .item.svelte-1xgpnfk {
+    .item.svelte-157gyn8 {
         border: 1px solid white;
         font-size: 14px;
         cursor: pointer;
@@ -99,7 +99,7 @@
         overflow: hidden;
         background-color: #454545;
     }
-    .name-type.svelte-1xgpnfk {
+    .name-type.svelte-157gyn8 {
         text-align: center;
         font-size: 12px;
         line-height: 10px;
@@ -107,17 +107,28 @@
         padding-bottom: 2px;
         padding-top: 1px;
     }
-    .stat-icon.svelte-1xgpnfk {
+    .value-type.svelte-157gyn8 {
+        text-align: center;
+        font-size: 12px;
+        line-height: 10px;
+        margin-bottom: 2px;
+        padding-bottom: 2px;
+        padding-top: 1px;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+    }
+    .stat-icon.svelte-157gyn8 {
         flex: 0 1 16px;
     }
-    .item-row.svelte-1xgpnfk {
+    .item-row.svelte-157gyn8 {
         display: flex;
         height: 16px;
         flex-flow: row nowrap;
         padding-left: 2px;
         padding-right: 2px;
     }
-    .item-value.svelte-1xgpnfk {
+    .item-value.svelte-157gyn8 {
         font-size: 16px;
         line-height: 13px;
         text-align: right;
@@ -482,6 +493,46 @@
         flex-flow: column nowrap;
         width: 100%;
         height: 100%;
+    }
+
+
+    .weight.svelte-pb8cjd {
+        flex: 0 0 40px;
+    }
+    .icon.svelte-pb8cjd {
+        flex: 1 0 auto;
+        align-content: center;
+    }
+    .container.svelte-pb8cjd {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .row.svelte-pb8cjd {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .slider.svelte-pb8cjd {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        height: 15px;
+        border-radius: 5px;  
+        background: #d3d3d3;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+        margin: 6px;
+    }
+
+    .slider.svelte-pb8cjd::-webkit-slider-thumb,
+    .slider.svelte-pb8cjd::-moz-range-thumb {
+        width: 15px;
+        height: 15px;
+        border-radius: 0;
+        background: grey;
+        cursor: pointer;
     }
 
 
