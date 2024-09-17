@@ -99,6 +99,8 @@ button:focus {
 .icon-itemstats-health          { background-position: -32px; }
 .icon-itemstats-armor           { background-position: -48px; }
 .icon-itemstats-block           { background-position: -64px; }
+.icon-itemstats-poison           { background-position: -80px; }
+.icon-itemstats-healthRegen           { background-position: -96px; }
 
 .btn-state-on,
 .btn-state-on:focus {
