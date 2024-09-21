@@ -94,13 +94,14 @@ button:focus {
     width: 16px;
     height: 16px;
 }
-.icon-itemstats-attack          { background-position: 0px; }
-.icon-itemstats-attack_interval  { background-position: -16px; }
-.icon-itemstats-health          { background-position: -32px; }
-.icon-itemstats-armor           { background-position: -48px; }
-.icon-itemstats-block           { background-position: -64px; }
-.icon-itemstats-poison           { background-position: -80px; }
-.icon-itemstats-health_regen           { background-position: -96px; }
+.icon-itemstats-Loot           { background-position: -112px; }
+.icon-itemstats-Attack          { background-position: 0px; }
+.icon-itemstats-Attack_Speed  { background-position: -16px; }
+.icon-itemstats-Health          { background-position: -32px; }
+.icon-itemstats-Armor           { background-position: -48px; }
+.icon-itemstats-Block           { background-position: -64px; }
+.icon-itemstats-Poison           { background-position: -80px; }
+.icon-itemstats-Health_Regen           { background-position: -96px; }
 
 .btn-state-on,
 .btn-state-on:focus {

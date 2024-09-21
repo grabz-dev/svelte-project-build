@@ -439,59 +439,90 @@
     }
 
 
-    .balance-wrap.svelte-192htt6 {
+    .perk-name.svelte-qb7a9w {
+        position:absolute;
+        width:100%;
+        top:0;
+        text-align: center;
+        font-size: 12px;
+        line-height: 11px;
+        padding-top: 2px;
+    }
+    .perk-level.svelte-qb7a9w {
+        position:absolute;
+        width:100%;
+        bottom:0;
+        text-align: center;
+    }
+    .category-icon.svelte-qb7a9w {
+        scale: 2;
+        image-rendering: pixelated;
+        align-self: center;
+        margin-top: -16px;
+        margin-right: 16px;
+    }
+    .icon-container.svelte-qb7a9w {
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .perk-category.svelte-qb7a9w {
+        height: 64px;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .balance-wrap.svelte-qb7a9w {
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
         color: #e2b42d;
     }
-    .balance-box.svelte-192htt6 {
+    .balance-box.svelte-qb7a9w {
         margin: 8px 0;
         box-shadow: 0 0 5px #e2b42d66, 2px 2px 5px #e2b42dcc;
         padding: 8px;
         width: 80%;
         border-radius: 8px;
     }
-    .balance-fancy.svelte-192htt6 {
+    .balance-fancy.svelte-qb7a9w {
         text-align: center;
         font-family: Rumburak;
         font-size: 30px;
     }
-    .balance.svelte-192htt6 {
+    .balance.svelte-qb7a9w {
         text-align: center;
         font-size: 20px;
     }
 
-    .perks.svelte-192htt6 {
+    .perks.svelte-qb7a9w {
         border: 3px dashed grey;
         padding: 3px;
         margin: 3px;
-        padding-left: 4px;
-        padding-top: 4px;
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: column nowrap;
         justify-content: center;
     }
 
-    .perk.svelte-192htt6 {
-        width: 100px;
+    .perk.svelte-qb7a9w {
+        position:relative;
         height: 50px;
         background-color: black;
         text-align: center;
         border: 1px solid white;
-        padding-top: 3px;
-        margin-left: -1px;
-        margin-top: -1px;
-        flex: 0 0 100px;
+        flex: 0 0 80px;
+        align-self: center;
+        margin-right: 12.5px;
     }
-    .perk-cant-afford.svelte-192htt6 {
+    .perk-cant-afford.svelte-qb7a9w {
         background-color: rgb(88, 88, 88);
     }
-    .perk.svelte-192htt6:hover {
+    .perk.svelte-qb7a9w:hover {
         cursor: pointer;
         background-color: #222;
     }
-    .perk-cant-afford.svelte-192htt6:hover {
+    .perk-cant-afford.svelte-qb7a9w:hover {
         background-color: rgb(88, 88, 88);
     }
 
@@ -890,7 +921,11 @@
     }
 
 
-    .tag-split.svelte-1xbwtb7 {
+    .container.svelte-109k0bu {
+         padding-bottom:10px;
+         width: 100%;
+    }
+    .tag-split.svelte-109k0bu {
         position: relative;
         width: calc(100% - 8px);
         height: 16px;
@@ -900,9 +935,9 @@
         padding-left: 4px;
         padding-right: 4px;
     }
-    .tag-split-left.svelte-1xbwtb7,
-    .tag-split-right.svelte-1xbwtb7,
-    .tag-split-middle.svelte-1xbwtb7 {
+    .tag-split-left.svelte-109k0bu,
+    .tag-split-right.svelte-109k0bu,
+    .tag-split-middle.svelte-109k0bu {
         display: flex;
         flex-flow: row nowrap;
         flex: 1 0 33.3334%;
@@ -911,23 +946,23 @@
         position: relative;
     }
 
-    .tag-split-left.svelte-1xbwtb7 {
+    .tag-split-left.svelte-109k0bu {
         justify-content: left;
     }
-    .tag-split-middle.svelte-1xbwtb7 {
+    .tag-split-middle.svelte-109k0bu {
         justify-content: middle;
     }
-    .tag-split-right.svelte-1xbwtb7 {
+    .tag-split-right.svelte-109k0bu {
         justify-content: right;
     }
 
-    .tag-split-fill.svelte-1xbwtb7 {
+    .tag-split-fill.svelte-109k0bu {
         position: absolute;
         height: 100%;
         background-color: rgb(80, 80, 80);
         left: 0;
     }
-    .right-value.svelte-1xbwtb7 {
+    .right-value.svelte-109k0bu {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -990,16 +1025,16 @@
     }
 
 
-    .perk-cost.svelte-obwe7x {
+    .perk-cost.svelte-t2hzrw {
         margin-top: 20px;
         padding-bottom: 2px;
         
     }
-    .title.svelte-obwe7x {
+    .title.svelte-t2hzrw {
         border-bottom: 1px dotted white;
         padding-bottom: 2px;
     }
-    .tooltip.svelte-obwe7x {
+    .tooltip.svelte-t2hzrw {
         width: 400px;
         height: auto;
         border: 1px solid white;
@@ -1011,6 +1046,11 @@
         text-align: center;
         z-index: 9999999;
         padding: 6px;
+    }
+
+    .small-print.svelte-t2hzrw {
+        font-style:italic;
+        font-size:13px;
     }
 
 
