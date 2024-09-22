@@ -8,6 +8,8 @@
     --color-button-off: #6c2222;
     --color-button-on-hover: #38ad26;
     --color-button-off-hover: #8f2d2d;
+    --color-enemy-defeated: #ff8f00;
+    --color-enemy-undefeated: #ffe300;
 }
 
 html, body {
