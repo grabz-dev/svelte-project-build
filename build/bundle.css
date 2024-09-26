@@ -818,11 +818,11 @@
     }
 
 
-    .windows.svelte-erncmc {
+    .windows.svelte-1xqxye0 {
         pointer-events: none;
         position: absolute;
-        width: 100%;
-        height: 100%;
+        width: 0;
+        height: 0;
     }
 
 
@@ -979,10 +979,10 @@
     }
 
 
-    .floating-text-container.svelte-1elfod8 {
+    .floating-text-container.svelte-15zs28w {
         position: absolute;
-        width: 100%;
-        height: 100%;
+        width: 0;
+        height: 0;
         left: 0;
         top: 0;
         pointer-events: none;
@@ -1110,10 +1110,10 @@
     }
 
 
-    .hover-popups.svelte-vuqlrm {
+    .hover-popups.svelte-yx4yzi {
         position: absolute;
-        width: 100%;
-        height: 100%;
+        width: 0;
+        height: 0;
         left: 0;
         top: 0;
         pointer-events: none;
@@ -1172,7 +1172,7 @@
     }
 
 
-    .app.svelte-r0tb1q {
+    .app.svelte-f1xune {
         position: absolute;
         top: 0;
         left: 0;
@@ -1182,11 +1182,12 @@
         height: 100%;
         user-select: none;
     }
-    .desktop.svelte-r0tb1q {
+    .desktop.svelte-f1xune {
         position: absolute;
         width: 100%;
         height: 100%;
         display: flex;
         flex-flow: column nowrap;
+        pointer-events: none;
     }
 
