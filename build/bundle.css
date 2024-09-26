@@ -6,19 +6,20 @@
     }
 
 
-    .icon.svelte-14roy9y {
+    .icon.svelte-1u436t3 {
         position: absolute;
         width: 70px;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
         cursor: pointer;
+        pointer-events: all;
         z-index: 999;
     }
-    .icon.svelte-14roy9y:hover {
+    .icon.svelte-1u436t3:hover {
         background-color: #66666666;
     }
-    .image.svelte-14roy9y {
+    .image.svelte-1u436t3 {
         flex: 0 0 50%;
         color: #ddd;
         font-size:12px;
@@ -28,7 +29,7 @@
         padding-top: 6px;
     }
 
-    .name.svelte-14roy9y {
+    .name.svelte-1u436t3 {
         flex: 1 1 auto;
         color: #ddd;
         text-align: center;
@@ -40,7 +41,7 @@
         width: 140%;
     }
 
-    .inner.svelte-14roy9y {
+    .inner.svelte-1u436t3 {
         width: 26px;
         height: 26px;
         border: 1px solid white;
@@ -49,7 +50,7 @@
         flex-flow: row nowrap;
     }
 
-    .inner2.svelte-14roy9y {
+    .inner2.svelte-1u436t3 {
         width: 100%;
         height: 100%;
         display: flex;
@@ -833,7 +834,7 @@
     }
 
 
-    .item.svelte-129069q {
+    .item.svelte-1gzjnwz {
         flex: 0 1 200px;
         padding: 2px;
         padding-left: 4px;
@@ -841,9 +842,10 @@
         display: flex;
         flex-flow: column nowrap;
         min-width: 0;
+        pointer-events: all;
     }
 
-    .inner.svelte-129069q {
+    .inner.svelte-1gzjnwz {
         flex: 1 0 auto;
         border-left: 1px solid black;
         border-right: 1px solid black;
@@ -855,46 +857,46 @@
         border-bottom: 2px solid gray;
     }
 
-    .text.svelte-129069q {
+    .text.svelte-1gzjnwz {
         display: block;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
     }
-    .inner.svelte-129069q {
+    .inner.svelte-1gzjnwz {
         background-color: #202020;
     }
-    .inner.svelte-129069q:hover {
+    .inner.svelte-1gzjnwz:hover {
         background-color: #282828;
     }
-    .inner.svelte-129069q:active {
+    .inner.svelte-1gzjnwz:active {
         background-color: #262626;
     }
-    .selected.svelte-129069q {
+    .selected.svelte-1gzjnwz {
         background-color: #229fac;
     }
-    .selected.svelte-129069q:hover {
+    .selected.svelte-1gzjnwz:hover {
         background-color: #1bbfd1;
     }
-    .selected.svelte-129069q:active {
+    .selected.svelte-1gzjnwz:active {
         background-color: #19e8ff;
     }
 
 
-    .left.svelte-431mug {
+    .left.svelte-av7qbz {
         flex: 0 0 100px;
         position: relative;
         display: flex;
         padding-right: 4px;
     }
-    .mainbtn.svelte-431mug {
+    .mainbtn.svelte-av7qbz {
         flex: 1 0 auto;
         position: relative;
 
         padding: 2px;
         padding-right: 0;
     }
-    .mainbtn-inner.svelte-431mug {
+    .mainbtn-inner.svelte-av7qbz {
         width: 100%;
         height: 100%;
         border: 1px solid black;
@@ -905,24 +907,25 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        pointer-events: all;
 
         cursor: pointer;
     }
 
-    .mainbtn-inner.svelte-431mug,
-    .menu-item-inner.svelte-431mug {
+    .mainbtn-inner.svelte-av7qbz,
+    .menu-item-inner.svelte-av7qbz {
         background-color: #202020;
     }
-    .mainbtn-inner.svelte-431mug:hover,
-    .menu-item-inner.svelte-431mug:hover {
+    .mainbtn-inner.svelte-av7qbz:hover,
+    .menu-item-inner.svelte-av7qbz:hover {
         background-color: #282828;
     }
-    .mainbtn-inner.svelte-431mug:active,
-    .menu-item-inner.svelte-431mug:active {
+    .mainbtn-inner.svelte-av7qbz:active,
+    .menu-item-inner.svelte-av7qbz:active {
         background-color: #262626;
     }
 
-    .menu.svelte-431mug {
+    .menu.svelte-av7qbz {
         position: absolute;
         width: 200px;
         min-height: 10px;
@@ -930,12 +933,12 @@
         bottom: 30px;
     }
 
-    .menu-item.svelte-431mug {
+    .menu-item.svelte-av7qbz {
         padding: 2px;
         height: 26px;
     }
 
-    .menu-item-inner.svelte-431mug {
+    .menu-item-inner.svelte-av7qbz {
         border: 1px solid black;
         height: 100%;
         display: flex;
