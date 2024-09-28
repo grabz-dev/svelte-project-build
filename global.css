@@ -88,15 +88,33 @@ button:focus {
 	border-color: #666;
 }
 
+.icon-gear {
+    background-image: url('./icons/gear_icons.png');
+    background-repeat: no-repeat;
+    image-rendering:pixelated;
+    background-size: cover;
+    transform-origin: 0 0;
+    width: 10px;
+    height: 10px;
+}
+.icon-gear-weapon          { background-position: 0px; }
+.icon-gear-helmet  { background-position: -10px; }
+.icon-gear-chestplate          { background-position: -20px; }
+.icon-gear-boots           { background-position: -30px; }
+.icon-gear-ring           { background-position: -40px; }
+
+
 .icon-itemstats {
     background-image: url('./icons/item_stats.png');
     background-repeat: no-repeat;
+    image-rendering:pixelated;
     background-size: cover;
     transform-origin: 0 0;
     width: 16px;
     height: 16px;
 }
 .icon-itemstats-Loot           { background-position: -112px; }
+.icon-itemstats-LootShiny           { background-position: -128px; }
 .icon-itemstats-Attack          { background-position: 0px; }
 .icon-itemstats-Attack_Speed  { background-position: -16px; }
 .icon-itemstats-Health          { background-position: -32px; }
