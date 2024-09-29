@@ -508,19 +508,36 @@
     }
 
 
-    .title.svelte-1ohhn6 {
+    .button-section.svelte-183d6y1 {
+        display: flex;
+        flex-flow: row nowrap;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-section.svelte-183d6y1 button:where(.svelte-183d6y1) {
+        height: 40px;
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .cattitle.svelte-183d6y1 {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .title.svelte-183d6y1 {
         width: 100%;
         border-bottom: 1px dotted gray;
         text-align: center;
     }
-    .perks-container.svelte-1ohhn6 {
+    .perks-container.svelte-183d6y1 {
         display: flex;
         width: 100%;
         justify-content: center;
         flex-flow: row wrap;
     }
   
-    .perk-name.svelte-1ohhn6 {
+    .perk-name.svelte-183d6y1 {
         position:absolute;
         width:100%;
         top:0;
@@ -529,7 +546,7 @@
         line-height: 11px;
         padding-top: 2px;
     }
-    .perk-level.svelte-1ohhn6 {
+    .perk-level.svelte-183d6y1 {
         position:absolute;
         width:100%;
         bottom:0;
@@ -548,7 +565,7 @@
         justify-content: center;
         align-content: center;
     }*/
-    .perk-category.svelte-1ohhn6 {
+    .perk-category.svelte-183d6y1 {
         width: calc(100% - 12.5px);
         display: flex;
         flex-flow: row wrap;
@@ -557,38 +574,56 @@
         padding-bottom: 10px;
         margin-top: 10px;
     }
-    .balance-wrap.svelte-1ohhn6 {
+    .balance-wrap.svelte-183d6y1 {
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
-        color: #e2b42d;
+        color: #2dafe2;
     }
-    .balance-box.svelte-1ohhn6 {
+    .balance-box.svelte-183d6y1 {
         margin: 8px 0;
-        box-shadow: 0 0 5px #e2b42d66, 2px 2px 5px #e2b42dcc;
+        box-shadow: 0 0 5px #2dafe266, 2px 2px 5px #2dafe2cc;
         padding: 8px;
         width: 80%;
         border-radius: 8px;
     }
-    .balance-fancy.svelte-1ohhn6 {
+    .balance-fancy.svelte-183d6y1 {
         text-align: center;
-        font-family: Rumburak;
         font-size: 30px;
     }
-    .balance.svelte-1ohhn6 {
+    .balance.svelte-183d6y1 {
         text-align: center;
         font-size: 20px;
     }
 
-    .perks.svelte-1ohhn6 {
+    .perks.svelte-183d6y1 {
         padding: 3px;
         margin: 3px;
         display: flex;
         flex-flow: column nowrap;
-        justify-content: center;
+        justify-content: flex-start;
+        flex: 0 1 50%;
+        height: 500px;
+        overflow-y: scroll;
     }
 
-    .perk.svelte-1ohhn6 {
+    .challenges.svelte-183d6y1 {
+        padding: 3px;
+        margin: 3px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        flex: 0 1 50%;
+        height: 500px;
+        overflow-y: scroll;
+    }
+
+    .pcsection.svelte-183d6y1 {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .perk.svelte-183d6y1 {
         position:relative;
         height: 50px;
         background-color: black;
@@ -599,14 +634,14 @@
         margin-right: 12.5px;
         margin-top: 12.5px;
     }
-    .perk-cant-afford.svelte-1ohhn6 {
+    .perk-cant-afford.svelte-183d6y1 {
         background-color: rgb(88, 88, 88);
     }
-    .perk.svelte-1ohhn6:hover {
+    .perk.svelte-183d6y1:hover {
         cursor: pointer;
         background-color: #222;
     }
-    .perk-cant-afford.svelte-1ohhn6:hover {
+    .perk-cant-afford.svelte-183d6y1:hover {
         background-color: rgb(88, 88, 88);
     }
 
@@ -1213,6 +1248,23 @@
     .time.svelte-45wjzq {
         font-size: 40px;
         padding: 20px;
+    }
+
+
+    .item.svelte-7v2lqt {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        transition: transform 2s;
+    }
+    .delayed-loot-manager.svelte-7v2lqt {
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 0;
+        top: 0;
+        pointer-events: none;
+        z-index: 99998;
     }
 
 
