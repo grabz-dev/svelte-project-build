@@ -360,34 +360,71 @@
     }
 
 
-    .world-container.svelte-1qzz89o {
+    .bar.svelte-o2t78k {
+        position: relative;
+        width: 100%;
+        height: 24px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        background-color: var(--color-health-outer);
+        overflow: hidden;
+    }
+    .bar-inner.svelte-o2t78k {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-health-inner);
+    }
+    .bar-armor.svelte-o2t78k { background-color: var(--color-armor-outer); }
+    .bar-inner-armor.svelte-o2t78k { background-color: var(--color-armor-inner); }
+    .bar-floating-text-hook.svelte-o2t78k {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        text-align: center;
+        right: 0;
+        pointer-events: none;
+    }
+
+
+    .armor-container.svelte-1xrd1lp {
+        display: flex;
+        flex-flow: row nowrap;
+        height: 24px;
+        position: relative;
+        width: 100%;
+    }
+    .world-container.svelte-1xrd1lp {
         display: flex;
         flex-flow: column nowrap;
         flex: 0 0 30px;
         text-align: center;
     }
-    .distance-container.svelte-1qzz89o {
+    .distance-container.svelte-1xrd1lp {
         display: flex;
         flex-flow: column nowrap;
         width: 100%;
         text-align: center;
         cursor: pointer;
     }
-    .distance-cur.svelte-1qzz89o {
+    .distance-cur.svelte-1xrd1lp {
         font-size: 20px;
         line-height: 20px;
         margin-top: -3px;
     }
-    .distance-highest.svelte-1qzz89o {
+    .distance-highest.svelte-1xrd1lp {
         font-size: 12px;
     }
-    .recovery-big.svelte-1qzz89o {
+    .recovery-big.svelte-1xrd1lp {
         font-size: 26px;
     }
-    .recovery-med.svelte-1qzz89o {
+    .recovery-med.svelte-1xrd1lp {
         font-size: 20px;
     }
-    .overlay.svelte-1qzz89o {
+    .overlay.svelte-1xrd1lp {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -399,32 +436,32 @@
         text-align: center;
         justify-content: center;
     }
-    button.svelte-1qzz89o {
+    button.svelte-1xrd1lp {
         width: 100%;
     }
-    .container.svelte-1qzz89o {
+    .container.svelte-1xrd1lp {
         height: 100%;
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
     }
-    .info-container.svelte-1qzz89o {
+    .info-container.svelte-1xrd1lp {
         flex: 1 0 160px;
         padding-right: var(--window-panel-outer-padding);
     }
-    .grid-container-row.svelte-1qzz89o {
+    .grid-container-row.svelte-1xrd1lp {
         width: 100%;
         display: flex;
         flex-flow: column nowrap;
     }
-    .grid-container.svelte-1qzz89o {
+    .grid-container.svelte-1xrd1lp {
         align-self: center;
         position: relative;
         overflow: hidden;
         display: flex;
         flex-flow: column nowrap;
     }
-    .bar.svelte-1qzz89o {
+    .bar.svelte-1xrd1lp {
         position: relative;
         width: 100%;
         height: 24px;
@@ -433,22 +470,25 @@
         background-color: var(--color-health-outer);
         overflow: hidden;
     }
-    .bar-world.svelte-1qzz89o {
+    .bar-world.svelte-1xrd1lp {
         height: 6px;
     }
-    .bar-inner.svelte-1qzz89o {
+    .bar-inner.svelte-1xrd1lp {
         position: absolute;
         width: 100%;
         height: 100%;
         background-color: var(--color-health-inner);
     }
-    .bar-health.svelte-1qzz89o { background-color: var(--color-health-outer); }
-    .bar-inner-health.svelte-1qzz89o { background-color: var(--color-health-inner); }
-    .bar-armor.svelte-1qzz89o { background-color: var(--color-armor-outer); }
-    .bar-inner-armor.svelte-1qzz89o { background-color: var(--color-armor-inner); }
-    .bar-world.svelte-1qzz89o { background-color: var(--color-armor-outer); }
-    .bar-inner-world.svelte-1qzz89o { background-color: var(--color-armor-inner); }
-    .bar-text.svelte-1qzz89o {
+    .bar-health.svelte-1xrd1lp { background-color: var(--color-health-outer); }
+    .bar-inner-health.svelte-1xrd1lp { background-color: var(--color-health-inner); }
+    .bar-inner-rarity.svelte-1xrd1lp {
+        border-right: 1px solid black;
+    }
+    .bar-xp.svelte-1xrd1lp { background-color: var(--color-xp-outer); }
+    .bar-inner-xp.svelte-1xrd1lp { background-color: var(--color-xp-inner); }
+    .bar-world.svelte-1xrd1lp { background-color: var(--color-armor-outer); }
+    .bar-inner-world.svelte-1xrd1lp { background-color: var(--color-armor-inner); }
+    .bar-text.svelte-1xrd1lp {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -458,7 +498,7 @@
         justify-content: center;
         text-align: center;
     }
-    .bar-text2.svelte-1qzz89o {
+    .bar-text2.svelte-1xrd1lp {
         position: absolute;
         height: 100%;
         display: flex;
@@ -467,7 +507,7 @@
         text-align: center;
         padding-left: 3px;
     }
-    .bar-text3.svelte-1qzz89o {
+    .bar-text3.svelte-1xrd1lp {
         position: relative;
         height: 100%;
         display: flex;
@@ -477,7 +517,7 @@
         margin-right: 3px;
         float: right;
     }
-    .bar-floating-text-hook.svelte-1qzz89o {
+    .bar-floating-text-hook.svelte-1xrd1lp {
         position: absolute;
         height: 100%;
         width: 100%;
@@ -488,11 +528,11 @@
         right: 0;
         pointer-events: none;
     }
-    .rarity-container.svelte-1qzz89o {
+    .rarity-container.svelte-1xrd1lp {
         border: 1px dotted grey;
         margin-top:10px;
     }
-    .rarity-text.svelte-1qzz89o {
+    .rarity-text.svelte-1xrd1lp {
         text-align: center;
     }
 
@@ -508,141 +548,80 @@
     }
 
 
-    .button-section.svelte-183d6y1 {
+    .progress.svelte-1ra26o3 {
+        height: 100%;
+        background-color: #434343;
+    }
+    .skill-title.svelte-1ra26o3 {
+        padding-bottom: 4px;
+    }
+    .skill-box.svelte-1ra26o3 {
+        position: absolute;
         display: flex;
-        flex-flow: row nowrap;
-        height: 50px;
+        flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
     }
-    .button-section.svelte-183d6y1 button:where(.svelte-183d6y1) {
-        height: 40px;
-        font-size: 30px;
-        margin-top: 0;
-    }
-    .cattitle.svelte-183d6y1 {
+    .skill-drawer.svelte-1ra26o3 {
+        height: auto;
         width: 100%;
-        text-align: center;
-        font-size: 20px;
+        position: relative;
+        border: 1px dashed gray;
+        margin-bottom: 10px;
+        overflow-x: auto;
+        overflow-y: hidden;
     }
-    .title.svelte-183d6y1 {
-        width: 100%;
-        border-bottom: 1px dotted gray;
-        text-align: center;
-    }
-    .perks-container.svelte-183d6y1 {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        flex-flow: row wrap;
-    }
-  
-    .perk-name.svelte-183d6y1 {
-        position:absolute;
-        width:100%;
-        top:0;
-        text-align: center;
-        font-size: 12px;
-        line-height: 11px;
-        padding-top: 2px;
-    }
-    .perk-level.svelte-183d6y1 {
-        position:absolute;
-        width:100%;
-        bottom:0;
-        text-align: center;
-    }
-    /* (unused) .category-icon {
-        scale: 2;
-        image-rendering: pixelated;
-        align-self: center;
-        margin-top: -16px;
-        margin-right: 16px;
-    }*/
-    /* (unused) .icon-container {
-        width: 50px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    }*/
-    .perk-category.svelte-183d6y1 {
-        width: calc(100% - 12.5px);
-        display: flex;
-        flex-flow: row wrap;
-        padding-left: 12.5px;
-        justify-content: center;
-        padding-bottom: 10px;
-        margin-top: 10px;
-    }
-    .balance-wrap.svelte-183d6y1 {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-        color: #2dafe2;
-    }
-    .balance-box.svelte-183d6y1 {
-        margin: 8px 0;
-        box-shadow: 0 0 5px #2dafe266, 2px 2px 5px #2dafe2cc;
-        padding: 8px;
-        width: 80%;
-        border-radius: 8px;
-    }
-    .balance-fancy.svelte-183d6y1 {
-        text-align: center;
-        font-size: 30px;
-    }
-    .balance.svelte-183d6y1 {
-        text-align: center;
-        font-size: 20px;
-    }
-
-    .perks.svelte-183d6y1 {
-        padding: 3px;
-        margin: 3px;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: flex-start;
-        flex: 0 1 50%;
-        height: 500px;
-        overflow-y: scroll;
-    }
-
-    .challenges.svelte-183d6y1 {
-        padding: 3px;
-        margin: 3px;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: flex-start;
-        flex: 0 1 50%;
-        height: 500px;
-        overflow-y: scroll;
-    }
-
-    .pcsection.svelte-183d6y1 {
-        display: flex;
-        flex-flow: row nowrap;
-    }
-
-    .perk.svelte-183d6y1 {
-        position:relative;
-        height: 50px;
+    .skill.svelte-1ra26o3 {
+        width: 48px;
+        height: 48px;
+        flex: 0 0 48px;
         background-color: black;
         text-align: center;
         border: 1px solid white;
-        flex: 0 0 80px;
-        align-self: center;
-        margin-right: 12.5px;
-        margin-top: 12.5px;
+        box-sizing: border-box;
     }
-    .perk-cant-afford.svelte-183d6y1 {
+    .skill-cant-afford.svelte-1ra26o3 {
         background-color: rgb(88, 88, 88);
     }
-    .perk.svelte-183d6y1:hover {
+    .skill.svelte-1ra26o3:hover {
         cursor: pointer;
         background-color: #222;
     }
-    .perk-cant-afford.svelte-183d6y1:hover {
+    .skill-cant-afford.svelte-1ra26o3:hover {
         background-color: rgb(88, 88, 88);
+    }
+
+
+    .perk-name.svelte-1rr91rc {
+        flex: 1 0 50%;
+    }
+    .perk-level.svelte-1rr91rc {
+        flex: 1 0 10%;
+    }
+    .perk-cost.svelte-1rr91rc {
+        flex: 1 0 30%;
+    }
+    .perk-lvbtn.svelte-1rr91rc {
+        flex: 1 0 10%;
+    }
+    .container.svelte-1rr91rc {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .perks.svelte-1rr91rc {
+        width: 100%;
+    }
+    .perk.svelte-1rr91rc {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .perk-lvbtn.svelte-1rr91rc {
+        cursor: pointer;
+    }
+    .disabled.svelte-1rr91rc {
+        cursor: not-allowed;
     }
 
 
@@ -717,6 +696,88 @@
     .quest-title.svelte-4ch83k {
         font-weight: bold;
         border-bottom: 1px dashed #7e7e7e;
+    }
+
+
+    .tab-row.svelte-8ai1pg {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5px;
+    }
+    .tab.svelte-8ai1pg {
+        background-color: #353535;
+        padding: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-bottom: 2px solid gray;
+        border-radius: 3px;
+        border-right: 1px solid gray;
+        cursor: pointer;
+    }
+    .selected.svelte-8ai1pg {
+        background-color: #247566;
+        border-bottom: 2px solid #2fb784;
+        border-right: 1px solid #2fb784;
+    }
+    .content-row.svelte-8ai1pg {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .challenge-btn-selected.svelte-1omlts1 {
+        background-color: teal;
+    }
+    .button-section.svelte-1omlts1 {
+        display: flex;
+        flex-flow: row nowrap;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-section.svelte-1omlts1 button:where(.svelte-1omlts1) {
+        height: 40px;
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .cattitle.svelte-1omlts1 {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+    /* (unused) .balance-wrap {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        color: #2dafe2;
+    }*/
+    /* (unused) .balance-box {
+        margin: 8px 0;
+        box-shadow: 0 0 5px #2dafe266, 2px 2px 5px #2dafe2cc;
+        padding: 8px;
+        width: 80%;
+        border-radius: 8px;
+    }*/
+    /* (unused) .balance-fancy {
+        text-align: center;
+        font-size: 30px;
+    }*/
+    /* (unused) .balance {
+        text-align: center;
+        font-size: 20px;
+    }*/
+    .challenges.svelte-1omlts1 {
+        padding: 3px;
+        margin: 3px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        flex: 0 1 50%;
+        overflow-y: scroll;
     }
 
 
@@ -1025,7 +1086,7 @@
     }
 
 
-    .taskbar.svelte-1bpzds1 {
+    .taskbar.svelte-1but5wy {
         position: relative;
         display: flex;
         flex-flow: row nowrap;
@@ -1034,13 +1095,18 @@
         z-index: 3;
     }
 
-    .middle.svelte-1bpzds1 {
+    .middle.svelte-1but5wy {
         flex: 1 1 auto;
         display: flex;
         flex-flow: row nowrap;
         padding-right: 2px;
 
         overflow: hidden;
+    }
+
+    .clock.svelte-1but5wy {
+        align-self: center;
+        padding-right: 8px;
     }
 
 
@@ -1141,6 +1207,54 @@
         line-height: 16px;
         text-align: center;
         padding:5px;
+    }
+
+
+    .container.svelte-109k0bu {
+         padding-bottom:10px;
+         width: 100%;
+    }
+    .tag-split.svelte-109k0bu {
+        position: relative;
+        width: calc(100% - 8px);
+        height: 16px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .tag-split-left.svelte-109k0bu,
+    .tag-split-right.svelte-109k0bu,
+    .tag-split-middle.svelte-109k0bu {
+        display: flex;
+        flex-flow: row nowrap;
+        flex: 1 0 33.3334%;
+        justify-content: center;
+        height: 100%;
+        position: relative;
+    }
+
+    .tag-split-left.svelte-109k0bu {
+        justify-content: left;
+    }
+    .tag-split-middle.svelte-109k0bu {
+        justify-content: middle;
+    }
+    .tag-split-right.svelte-109k0bu {
+        justify-content: right;
+    }
+
+    .tag-split-fill.svelte-109k0bu {
+        position: absolute;
+        height: 100%;
+        background-color: rgb(80, 80, 80);
+        left: 0;
+    }
+    .right-value.svelte-109k0bu {
+        position: absolute;
+        width: 100%;
+        height: 100%;
     }
 
 

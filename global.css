@@ -4,6 +4,8 @@
     --color-health-inner: green;
     --color-armor-outer: #404040;
     --color-armor-inner: rgb(31, 137, 178);
+    --color-xp-outer: #404040;
+    --color-xp-inner: rgb(31, 178, 43);
     --color-button-on: #2d941e;
     --color-button-off: #6c2222;
     --color-button-on-hover: #38ad26;
