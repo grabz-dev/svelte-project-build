@@ -93,8 +93,7 @@ button:focus {
 .icon-gear {
     background-image: url('./icons/gear_icons.png');
     background-repeat: no-repeat;
-    image-rendering:pixelated;
-    background-size: cover;
+    image-rendering:auto;
     transform-origin: 0 0;
     width: 10px;
     height: 10px;
@@ -109,8 +108,7 @@ button:focus {
 .icon-itemstats {
     background-image: url('./icons/item_stats.png');
     background-repeat: no-repeat;
-    image-rendering:pixelated;
-    background-size: cover;
+    image-rendering: auto;
     transform-origin: 0 0;
     width: 16px;
     height: 16px;
