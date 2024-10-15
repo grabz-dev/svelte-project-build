@@ -149,3 +149,7 @@ button:focus {
     text-decoration: underline;
     text-decoration-style: dotted;
 }
+
+* {
+    touch-action: manipulation;
+}
