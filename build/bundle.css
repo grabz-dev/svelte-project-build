@@ -60,12 +60,11 @@
     }
 
 
-    .desktop.svelte-1kfw3k1 {
+    .desktop.svelte-38fg35 {
         position: relative;
         flex: 1 0 auto;
-        z-index: 2;
     }
-    .disclaimer.svelte-1kfw3k1 {
+    .disclaimer.svelte-38fg35 {
         position: absolute;
         right: 0;
         bottom: 0;
@@ -778,6 +777,8 @@
     }
 
 
+
+
     .panel.svelte-191zzey {
         flex: 1 0 auto;
         padding: var(--window-panel-outer-padding);
@@ -952,8 +953,8 @@
     }
 
 
-    .windows.svelte-1vmf4wa {
-        
+    .windows.svelte-1kry2dv {
+        z-index: 3;
         position: absolute;
         width: 0;
         height: 0;
@@ -1110,16 +1111,17 @@
     }
 
 
-    .taskbar.svelte-1but5wy {
+    .taskbar.svelte-8yijcj {
         position: relative;
         display: flex;
         flex-flow: row nowrap;
         flex: 0 0 30px;
         background-color: #313131;
         z-index: 3;
+        pointer-events: all;
     }
 
-    .middle.svelte-1but5wy {
+    .middle.svelte-8yijcj {
         flex: 1 1 auto;
         display: flex;
         flex-flow: row nowrap;
@@ -1128,7 +1130,7 @@
         overflow: hidden;
     }
 
-    .clock.svelte-1but5wy {
+    .clock.svelte-8yijcj {
         align-self: center;
         padding-right: 8px;
     }
@@ -1406,7 +1408,7 @@
     }
 
 
-    .app.svelte-2c3v0w {
+    .app.svelte-r72gv0 {
         position: absolute;
         top: 0;
         left: 0;
@@ -1416,12 +1418,13 @@
         height: 100%;
         user-select: none;
     }
-    .desktop.svelte-2c3v0w {
+    .desktop.svelte-r72gv0 {
         position: absolute;
         width: 100%;
         height: 100%;
         display: flex;
         flex-flow: column nowrap;
-        
+        z-index: 4;
+        pointer-events: none;
     }
 
