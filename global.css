@@ -122,6 +122,7 @@ button:focus {
 .icon-itemstats-Block           { background-position: -64px; }
 .icon-itemstats-Poison           { background-position: -80px; }
 .icon-itemstats-Health_Regen           { background-position: -96px; }
+.icon-itemstats-Dodge           { background-position: -160px; }
 
 .btn-state-on,
 .btn-state-on:focus {
